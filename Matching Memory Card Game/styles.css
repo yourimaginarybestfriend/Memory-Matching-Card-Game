@@ -1,0 +1,14 @@
+styles.css
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three width columns */
+  grid-template-rows: repeat(4, 1fr); /* Four height rows */
+  grid-gap: 10px; /* Space between grid  */
+}
+
+.grid-item {
+  background-color: #E6E6FA; /* Lavendar background for visual clarity */
+  border: 1px solid #ccc; /* Border for grid items */
+  padding: 10px; /* Padding for info within grids */
+}
