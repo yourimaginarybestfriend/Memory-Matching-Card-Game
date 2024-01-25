@@ -1,0 +1,18 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four equal-width columns */
+  grid-template-rows: repeat(3, 1fr); /* Three equal-height rows */
+  grid-gap: 1px; /* Decreased space between grid items */
+}
+
+.card {
+  padding: 1px; /* Decreased padding for cards */
+}
+
+body {
+  background-color: #E6E6FA; /* Help cards pop */
+}
+
+.card img {
+  border: 5px solid #ccc; /* Border directly around images */
+}
